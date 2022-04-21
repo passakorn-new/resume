@@ -1,9 +1,9 @@
 <script lang="ts">
-  import Tailwind from "./Tailwind.svelte"
-  import Intro from "./Intro.svelte"
-  import Work from "./Work.svelte"
-  import Kofi from "./Kofi.svelte"
-  import HideToggle from "./HideToggle.svelte"
+  import Tailwind from "./Tailwind.svelte";
+  import Intro from "./Intro.svelte";
+  import Work from "./Work.svelte";
+  import Kofi from "./Kofi.svelte";
+  import HideToggle from "./HideToggle.svelte";
   import {
     educations,
     fullVersionLink,
@@ -13,12 +13,14 @@
     sourceLink,
     technologies,
     workExperiences,
-  } from "./data"
+    careerObjective,
+    assesments,
+  } from "./data";
 
-  let editMode = false
+  let editMode = false;
 
   function toggleMode() {
-    editMode = !editMode
+    editMode = !editMode;
   }
 </script>
 
@@ -29,9 +31,7 @@
 
 <Tailwind />
 
-<header
-  class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen"
->
+<header class="web-only text-center p-4 sm:p-6 bg-blue-400 text-white w-screen">
   <h1 class="text-4xl">Resumette</h1>
   <h3>
     <button on:click={toggleMode} class="underline text-lg"
@@ -59,6 +59,17 @@
     : 'display-mode'}"
 >
   <Intro {...introData} />
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      Career Objective
+    </h2>
+    <hr />
+    <p class="text-left">
+      {careerObjective}
+    </p>
+  </section>
 
   <section>
     <HideToggle />
@@ -94,7 +105,9 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      Professional Experience
+    </h2>
     <hr />
 
     {#each workExperiences as exp}
@@ -116,6 +129,27 @@
           <a href="https://{project.url}" target="_blank" rel="noreferrer"
             ><strong>{project.url}</strong></a
           >
+        </li>
+      {/each}
+    </ul>
+  </section>
+
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      ASSESMENT COURSES AND TRAINING
+    </h2>
+    <hr />
+
+    <ul class="text-left list-disc pl-8">
+      {#each assesments as assesment}
+        <li>
+          <HideToggle />
+          <strong>{assesment.name}</strong>
+          - {assesment.details}
+          <a href={assesment.url} target="_blank" rel="noreferrer"
+            ><strong>[Certificate]</strong>
+          </a>
         </li>
       {/each}
     </ul>
