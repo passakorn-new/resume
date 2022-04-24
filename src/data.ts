@@ -21,12 +21,12 @@ export const technologies = [
   {
     section: "Languages:",
     details:
-      "Ruby, Python, Go, JavaScript, TypeScript",
+      "Ruby, Python, JavaScript, TypeScript",
   },
   {
     section: "Frameworks:",
     details:
-      "Ruby on Rails, ReactJS, NextJS, SvelteJS, TailwindCSS, Django",
+      "Ruby on Rails, Django, ReactJS, NextJS, SvelteJS, TailwindCSS",
   },
   {
     section: "Tools:",
