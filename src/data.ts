@@ -115,6 +115,11 @@ export const projects = [
       "Practice Go CRUD connects to Firebase and uses a clean architecture concept.",
     url: "github.com/passakorn-new/go-clean-architect",
   },
+  {
+    name: "Discord Notification Payment",
+    details: "Created Cloud Function and Cloud Scheduler for notify payment Netflix and Youtube Premium with my friends via Discord webhook",
+    url: "https://github.com/passakorn-new/discord-notification-payment"
+  }
 ]
 
 export const interests = [
