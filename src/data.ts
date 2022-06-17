@@ -118,7 +118,7 @@ export const projects = [
   {
     name: "Discord Notification Payment",
     details: "Created Cloud Function and Cloud Scheduler for notify payment Netflix and Youtube Premium with my friends via Discord webhook",
-    url: "https://github.com/passakorn-new/discord-notification-payment"
+    url: "github.com/passakorn-new/discord-notification-payment"
   }
 ]
 
