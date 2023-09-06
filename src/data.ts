@@ -104,12 +104,12 @@ export const assesments = [
   {
     name: "Software Engineering Virtual Experience",
     details: "from theforage.com (JPMorgan Chase & Co. Forage)",
-    url: "www.insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_9zxLJstovwsctTh6E_1643623765929_completion_certificate.pdf",
+    url: "insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_9zxLJstovwsctTh6E_1643623765929_completion_certificate.pdf",
   },
   {
     name: "Infrastructure Automation With Terraform",
     details: "from Udemy",
-    url: "www.udemy.com/certificate/UC-c6207563-f05b-47f5-90e3-c9ec1dc7c5f1/",
+    url: "udemy.com/certificate/UC-c6207563-f05b-47f5-90e3-c9ec1dc7c5f1/",
   },
 ]
 
