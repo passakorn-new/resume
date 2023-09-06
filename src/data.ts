@@ -14,24 +14,23 @@ export const introData = {
   website: "psknew.netlify.com",
 }
 
-export const careerObjective =
-  "A software engineer with 3-year experience in software development process. Currently seeking opportunities in software engineer, with a particular interest in making use of modern and challenging technologies. I'm an excellent team player and also possess a positive attitude and enthusiastic to gather new knowledge"
+export const careerObjective = "I am a software engineer with four years of experience in the software development process. I am currently seeking opportunities as a software engineer, with a particular interest in working with modern and challenging technologies. I am an excellent team player and also possess a positive attitude, always enthusiastic about gaining new knowledge"
 
 export const technologies = [
   {
     section: "Languages:",
     details:
-      "Ruby, Python, JavaScript, TypeScript",
+      "Ruby, Go, Python, Java, JavaScript, TypeScript",
   },
   {
     section: "Frameworks:",
     details:
-      "Ruby on Rails, Django, ReactJS, NextJS, SvelteJS, TailwindCSS",
+      "Ruby on Rails, Django, Gin, Spring, ReactJS, NextJS, SvelteJS, TailwindCSS",
   },
   {
     section: "Tools:",
     details:
-      "Git, Gitlab, Terraform, Docker",
+      "Git, Gitlab, Terraform, Docker, Kubernetes, Coda, Dagger",
   },
   {
     section: "Other:",
@@ -53,15 +52,24 @@ export const educations = [
 
 export const workExperiences = [
   {
+    position: "Software Engineer",
+    company: "Prodigy9",
+    url: "https://prodigy9.co",
+    years: ["2022", "Current"],
+    details: [
+      
+    ],
+  },
+  {
     position: "Full Stack Engineer",
     company: "Gettgo",
     url: "https://gettgo.com/",
-    years: ["2021", "Current"],
+    years: ["2021", "2022"],
     details: [
-      "Sprint plan and Sprint demo with engineer team and related team",
-      "Develope and maintain website gettgo.com and hero.gettgo.com using Ruby on Rails and ReactJS",
-      "Designed and developed feature for user can customise insurance.",
-      "Conducting thorough code reviews, and careful testing.",
+      "Sprint planning and Sprint demos with the engineering team and related teams.",
+      "Developing and maintaining websites gettgo.com and hero.gettgo.com using Ruby on Rails and ReactJS.",
+      "Designed and developed features that allow users to customize insurance.",
+      "Conducting thorough code reviews and performing careful testing."
     ],
   },
   {
@@ -70,11 +78,11 @@ export const workExperiences = [
     url: "https://swiftlet.co.th/",
     years: ["2019", "2021"],
     details: [
-      "Learned TDD practice & Pair programming and Agile",
-      "Developed and maintain Enterprise Resource Planning (ERP) website using Ruby on Rails",
-      "Developed Robotic Process Automation (RPA) reduced wage costs of customer",
-      "Developed Business Intelligence suite is a platform with open API integration with various data sources for create report from other ERP system using Python Django",
-      "Researched & applied improvements for development workflow by Terraform"
+      "Learned TDD (Test-Driven Development) practices, pair programming, and Agile methodologies.",
+      "Developed and maintained an Enterprise Resource Planning (ERP) website using Ruby on Rails.",
+      "Developed Robotic Process Automation (RPA) solutions that reduced customer wage costs.",
+      "Developed a Business Intelligence suite, which is a platform with open API integration for creating reports from other ERP systems using Python Django.",
+      "Researched and applied improvements to the development workflow using Terraform."
     ],
   },
   {
@@ -83,8 +91,8 @@ export const workExperiences = [
     url: "https://www.sycapt.com/",
     years: ["2018", "2018"],
     details: [
-      "Developed Fleet card system website using Java with Spring MVC Framework built with Apache Maven",
-      "Implemented a small part of website by circuit breaker pattern",
+      "Developed a Fleet card system website using Java with the Spring MVC Framework, built with Apache Maven.",
+      "Implemented a small part of the website using the circuit breaker pattern."
     ],
   },
 ]
@@ -93,12 +101,12 @@ export const assesments = [
   {
     name: "Software Engineering Virtual Experience",
     details: "from theforage.com (JPMorgan Chase & Co. Forage)",
-    url: "insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_9zxLJstovwsctTh6E_1643623765929_completion_certificate.pdf",
+    url: "www.insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_9zxLJstovwsctTh6E_1643623765929_completion_certificate.pdf",
   },
   {
     name: "Infrastructure Automation With Terraform",
     details: "from Udemy",
-    url: "udemy.com/certificate/UC-c6207563-f05b-47f5-90e3-c9ec1dc7c5f1/",
+    url: "www.udemy.com/certificate/UC-c6207563-f05b-47f5-90e3-c9ec1dc7c5f1/",
   },
 ]
 
@@ -123,6 +131,6 @@ export const projects = [
 ]
 
 export const interests = [
-  "Interests: Aesthetic Music, Board games, Leetcode, NFT games, K-Series",
+  "Interests: Aesthetic Music, Board games, Leetcode, NFT games, K-Series, Badminton",
   "Languages: Thai (Native), English (Beginner)",
 ]
