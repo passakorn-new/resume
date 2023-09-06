@@ -57,7 +57,10 @@ export const workExperiences = [
     url: "https://prodigy9.co",
     years: ["2022", "Current"],
     details: [
-      
+      "Initiated projects and selected the appropriate technologies for implementation.",
+      "Developed and maintained software programs.",
+      "Provided system support and testing for users, identifying and implementing optimal solutions.",
+      "Conducted regular meetings with users to update them on project progress and clarify the details of each sprint."
     ],
   },
   {
